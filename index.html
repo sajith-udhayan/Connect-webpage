@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conneckt plus</title> 
+    <!-- favicon Link -->
+    <Link rel="icon" type="image/png" href="./conneckpluslogo.png"></Link>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- css file Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Include Bootstrap Icons CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  </head>
+
+<body>
+  <header id="header">
+    <nav id="firstnav" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./conneckpluslogo.png" alt="Bootstrap" width="40" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a id="learn" class="nav-link active" aria-current="page" href="#">LEARN</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Discover
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- search icon and search section -->
+                <div id="searchContainer" class="d-flex">
+                    <i id="searchIcon" class="fas fa-search"></i>
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search...">
+                    <i id="closeIcon" class="fa fa-times-circle" aria-hidden="true"></i>
+                </div>
+                <div id="sign">
+                    <a class="nav-link active" aria-current="page" href="#">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!-- second nav bar section -->
+    <nav id="secondnav" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a id="connectplustext" class="nav-link active" aria-current="page" href="#">ConnectPlus </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <!-- Repeat the above list items for other dropdowns -->
+                </ul>
+                <a class="btn btn-primary my-2 my-lg-0" href="#" role="button">Free Account</a>
+            </div>
+        </div>
+    </nav>        
+</header>
+<!-- nav bar section end -->
+
+<!-- body section start -->
+<!-- <div id="container" class="container"> -->
+  <div class="row">
+      <!-- first div -->
+      <div id="first" class="col-lg-3 col-md-4 col-sm-12 bg-white text-dark p-3">
+          <nav id="affixed-left-container" class="margin-top-sm-tablet position-sticky display-flex flex-column">
+              <div id="versionhead">
+                  <!-- version section -->
+                  <h5 class="headv ms-5"><b>version</b></h5>
+
+                  <div class="container mt-0 ms-4">
+                      <div class="row">
+                          <div class="col-lg-6 col-md-12"> <!-- Adjust the column width for responsiveness -->
+                              <div class="dropdown d-inline-block"> <!-- Use d-inline-block to keep elements on the same line -->
+                                  <button class="btn btn-white rounded-0 border-dark mb-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Dropdown button
+                                  </button>
+                                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  </ul>
+                              </div>
+                              <form class="d-inline-block"> <!-- Use d-inline-block to keep elements on the same line -->
+                                  <div class="input-group mb-3">
+                                      <input type="text" class="form-control rounded-0 border-dark" placeholder="Search for...">
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- navigation section for content -->
+                  <nav id="navbar-example3" class="navbar navbar-light bg-white flex-column align-items-stretch p-3">
+                      <nav id="droplist" class="nav nav-pills flex-column">
+                          <a class="nav-link text-dark" href="#item-2">ConnectPlus admin help center</a><hr>
+                          <a class="nav-link text-dark" href="#item-2">Small business and learning</a><hr>
+                          <a class="nav-link text-dark" href="#item-2">Youtube-Connekt plus help for small bussiness</a><hr>
+
+                          <a class="nav-link text-dark" href="#item-1" data-bs-toggle="collapse" data-bs-target="#collapse-item-1" aria-expanded="false" aria-controls="collapse-item-1">
+                              Overview&nbsp;&nbsp;<i id="overview-arrow-1" class="fas fa-chevron-right"></i>
+                          </a>
+                          <div class="collapse" id="collapse-item-1">
+                              <nav class="nav nav-pills flex-column">
+                                  <a class="nav-link ms-3 my-1 text-dark" href="#item-1-1">Item 1-1</a>
+                                  <a class="nav-link ms-3 my-1 text-dark" href="#item-1-2">Item 1-2</a>
+                              </nav>
+                          </div>
+                       <hr>
+
+                          <a class="nav-link text-dark" href="#item-2" data-bs-toggle="collapse" data-bs-target="#collapse-item-2" aria-expanded="false" aria-controls="collapse-item-2">
+                              Get started&nbsp;&nbsp;<i id="overview-arrow-2" class="fas fa-chevron-right"></i>
+                          </a>
+                          <div class="collapse" id="collapse-item-2">
+                              <nav class="nav nav-pills flex-column">
+                                  <a class="nav-link ms-3 my-1 text-dark" href="#item-3-1">Item 1-1</a>
+                                  <a class="nav-link ms-3 my-1 text-dark" href="#item-3-2">Item 1-2</a>
+                              </nav>
+                          </div>
+                        <hr>
+
+                          <a class="nav-link text-dark" href="#item-3" data-bs-toggle="collapse" data-bs-target="#collapse-item-3" aria-expanded="false" aria-controls="collapse-item-3">
+                              Loearum &nbsp;&nbsp;<i id="overview-arrow-3" class="fas fa-chevron-right"></i>
+                          </a>
+                          <div class="collapse" id="collapse-item-3">
+                              <nav class="nav nav-pills flex-column">
+                                  <a class="nav-link ms-3 my-1 text-dark" href="#item-3-1">Item 1-1</a>
+                                  <a class="nav-link ms-3 my-1 text-dark" href="#item-3-2">Item 1-2</a>
+                              </nav>
+                          </div>
+                        <hr>
+
+                          <a class="nav-link text-dark" href="#item-4" data-bs-toggle="collapse" data-bs-target="#collapse-item-4" aria-expanded="false" aria-controls="collapse-item-4">
+                            Details&nbsp;&nbsp;<i id="overview-arrow-4" class="fas fa-chevron-right"></i>
+                        </a>
+                        <div class="collapse" id="collapse-item-4">
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1 text-dark" href="#item-4-1">Item 1-1</a>
+                                <a class="nav-link ms-3 my-1 text-dark" href="#item-4-2">Item 1-2</a>
+                            </nav>
+                        </div>
+                        <hr>
+
+                        <a class="nav-link text-dark" href="#item-5" data-bs-toggle="collapse" data-bs-target="#collapse-item-5" aria-expanded="false" aria-controls="collapse-item-5">
+                          More about conneckt plus and functionality&nbsp;&nbsp;<i id="overview-arrow-5" class="fas fa-chevron-right"></i>
+                      </a>
+                      <div class="collapse" id="collapse-item-5">
+                          <nav class="nav nav-pills flex-column">
+                              <a class="nav-link ms-3 my-1 text-dark" href="#item-5-1">Item 1-1</a>
+                              <a class="nav-link ms-3 my-1 text-dark" href="#item-5-2">Item 1-2</a>
+                          </nav>
+                      </div>
+                      <hr>
+
+                      <a class="nav-link text-dark" href="#item-6" data-bs-toggle="collapse" data-bs-target="#collapse-item-6" aria-expanded="false" aria-controls="collapse-item-6">
+                        Conneckt plus &nbsp;&nbsp;<i id="overview-arrow-6" class="fas fa-chevron-right"></i>
+                    </a>
+                    <div class="collapse" id="collapse-item-6">
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1 text-dark" href="#item-6-1">Item 1-1</a>
+                            <a class="nav-link ms-3 my-1 text-dark" href="#item-6-2">Item 1-2</a>
+                        </nav>
+                    </div>
+                   <hr>
+
+                          <!-- Repeat the above navigation items for other sections -->
+
+                      </nav>
+                  </nav>
+                  <div class="download mt-0 ms-0">
+                      <a href="path/to/yourfile.pdf" class="btn btn-success ms-5" download="YourFileName.pdf">
+                          <i class="fas fa-download"></i> Download PDF
+                      </a>
+                  </div>
+
+              </div>
+          </nav>
+      </div>
+
+
+
+    <!-- second main div -->
+<div id="main" class="col-lg-6 col-md-12 bg-body-white text-dark p-3">
+  <div id="link" class="d-flex justify-content-between align-items-center bg-body-white">
+      <div>
+          <span><a class="text-decoration-none" href="https://getbootstrap.com/docs/5.0/customize/color/" style="color: rgba(18, 19, 112, 0.856);">Learn</a></span>
+          <span>/</span>
+          <span><a class="text-decoration-none" href="https://getbootstrap.com/docs/5.0/customize/color/" style="color: rgba(18, 19, 112, 0.856);">Connektplus</a></span>
+          <span>/</span>
+      </div>
+      <!-- circle icon section -->
+      <div style="display: flex; align-items: center; gap: 10px;"> <!-- Container to manage layout -->
+          <div class="dropdown">
+              <button id="dropdownButton1" class="btn btn-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa fa-plus-circle" aria-hidden="true"></i>
+              </button>
+              <ul class="dropdown-menu dropend">
+                  <li><a class="dropdown-item" href="#"><button id="dropdownButton1" class="btn btn-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                </button> Action</a></li>
+                  <li><a class="dropdown-item" href="#"><button id="dropdownButton1" class="btn btn-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                </button> Another action</a></li>
+              </ul>
+          </div>
+          <div class="dropdown">
+              <button id="dropdownButton2" class="btn btn-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-ellipsis-v"></i>
+              </button>
+              <ul class="dropdown-menu dropend">
+                  <li><a class="dropdown-item" href="#"><button class="btn-print bg-white ms-4 border-white" style="border: none;" onclick="window.print()"><i class="fas fa-print"></i> Print</button></a></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/inciem.technologies/?img_index=1"><i class="fab fa-instagram"></i>&nbsp;&nbsp;Instagram</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-twitter"></i>&nbsp;&nbsp;Twitter</a></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/company/inciem-technologies/mycompany/"><i class="fab fa-linkedin"></i>&nbsp;&nbsp;Linkedin</a></li>
+                  <li><a class="dropdown-item" href="https://m.facebook.com/Inciem.Technologies"><i class="fab fa-facebook"></i>&nbsp;&nbsp;Facebook</a></li>
+                  <li><a class="dropdown-item" href="mailto:info@inciem.com"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Email</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <!-- heading  -->
+  <div class="content">
+      <h1 id="connect-overview-heading">Conneckt Plus admin center accessibility overview</h1>
+  </div>
+  <div class="article-feed">
+      <div>
+          <ul class="d-flex ps-1">
+              <li class="art"><span>Article</span></li>
+              <li class="date">
+                  <time datetime="15/04/2024">15/04/2024</time>
+              </li> 
+              <!-- feedback button -->
+              <div class="user-feedback d-flex justify-content-end ms-auto">
+                <div class="btn-group" role="group" aria-label="Feedback">
+                    <button type="button" class="btn btn-white text-primary" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <i class="bi bi-hand-thumbs-up"></i> Feedback
+                    </button>
+                </div>
+            </div>
+        
+            <!-- Feedback Modal -->
+            <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="feedbackModalLabel">Feedback Form</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name-input" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="name-input" placeholder="Enter your name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email-input" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="feedback-textarea" class="form-label">Your Feedback</label>
+                                    <textarea class="form-control" id="feedback-textarea" rows="3"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Submit Feedback</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+          </ul>        
+      </div>
+  </div>
+  <div class="info">
+      <h5>In this article</h5>
+      <ul class="art-list ls-none">
+          <li>
+              <a class="text-decoration-none" href="" style="color: rgba(31, 31, 150, 0.927);">Conformance Status</a>
+          </li>
+          <li>
+              <a class="text-decoration-none" href="" style="color: rgba(31, 31, 150, 0.927);">Compatibility with browsers and assistive technology</a>
+          </li>
+          <li>
+              <a class="text-decoration-none" href="" style="color: rgba(31, 31, 150, 0.927);">Accessibility features in the Microsoft 365 admin center</a>
+          </li>
+          <li>
+              <a class="text-decoration-none" href=""style="color: rgba(31, 31, 150, 0.927);">Support and feedback</a>
+          </li>
+          <li class="hidden" style="display: none;">
+              <a class="text-decoration-none" href="" style="color: rgba(31, 31, 150, 0.927);">January 2024</a>
+          </li>
+          <li class="hidden" style="display: none;">
+              <a class="text-decoration-none" href=""style="color: rgba(31, 31, 150, 0.927);">Nov 2023</a>
+          </li>
+          <li class="show-more">
+              <a class="text-decoration-none" href="#" onclick="showMore(event)">Show More</a>
+          </li>
+          <li class="show-less hidden" style="display: none; ">
+              <a class="text-decoration-none" href="#" onclick="showLess(event)">Show Less</a>
+          </li>
+      </ul>
+      <p>We're continuously adding new features to the Microsoft 365 admin center, fixing issues we learn about, and making changes based on your feedback. Some features get <a class="text-decoration-none" href="">Microsoft Accessibility Conformance Reports</a> If you aren't seeing a feature yet, try adding yourself to targeted release.</p>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. qui facilis libero! Corrupti, veniam!</p>
+      <p>We prioritize inclusive design and accessibility in products and services. Microsoft publishes Accessibility Conformance Reports (ACRs) describing how our products and services support the criteria of the European accessibility standard, EN 301 549; Section 508 of the U.S. Rehabilitation Act; and the Web Content Accessibility Guidelines (WCAG). A copy of the accessibility conformance reports for M365 admin center - Web are available at <a class="text-decoration-none" href="">Microsoft Accessibility Conformance Reports</a></p>
+  </div>
+  <div id="A">
+      <h2>Conformance status</h2>
+      <p>The Web Content Accessibility Guidelines (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. The Microsoft 365 admin center is partially conformant with WCAG 2.1 level AA. Partially conformant means that some parts of the content don't fully conform to the accessibility standard.</p>
+  </div>
+  <div id="B">
+      <h2>Compatibility with browsers and assistive technology</h2>
+      <p>The Microsoft 365 admin center is designed to be compatible with the latest versions of NVDA, Microsoft Edge, and Google Chrome. A Microsoft 365 Admin app is available for iOS and Android, and users can use Voiceover and Talkback screen readers on those devices.</p>
+  </div>
+  <div id="C">
+      <h2>Accessibility features in the Microsoft 365 admin center</h2>
+      <p>The Microsoft 365 admin center provides the following features to support accessibility in the web site:</p>
+      <ul id="bullet">
+          <li><p><b>Contrast modes: </b> admin center provides light and dark modes that can be selected on most pages in the admin center, including the admin center Home page. By default, Light mode is selected. To switch to Dark mode, select the Dark mode link in the upper-right corner of the page.</p></li>
+          <li><p><b>Keyboard shortcuts: </b>The admin center provides the following keyboard shortcuts</p>
+              <ul>
+                  <li>Universal shortcuts/li>
+                  <li>See all available shortcuts - Shift+?</li>
+              </ul>
+          </li>
+          <li><p><b>Magnification: </b>A minimum of 400% browser magnification is supported.</p></li>
+          <li><p><b>On the Active users page: </b>the admin center, including the admin center Home page. By default, Light</p>
+              <ul>
+                  <li>On the Contacts page:</li>
+                  <li>On the Active users page:
+                      <ul>
+                          <li>Sub-Sub-Point</li>
+                          <li>Sub-Sub-Point</li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+  </div>
+  <div id="D">
+      <h2>Support and feedback</h2>
+      <p>Microsoft provides an enterprise Disability Answer Desk as a support resource for organizations that have questions about the accessibility of Microsoft products and product conformance with accessibility standards. The support team can help resolve issues relating to assistive technology and functionality of products for users with disabilities, and find conformance documentation. <a href="">For accessibility help, email the enterprise Disability Answer Desk.</a></p>
+      <p>We welcome your feedback on the accessibility of the Microsoft 365 admin center. <b>Use the Give feedback button</b> inside the admin center to let us know about any accessibility barriers you encounter.</p>
+      <hr>
+  </div>
+  <div class="feedback-container">
+      <h2>feedback</h2>
+      <h5>Are you satisfied with our service?</h5>
+      <button id="yesButton" class="feedback-button yes">Yes</button>
+      <button id="noButton" class="feedback-button no">No</button>
+  </div>
+</div>
+
+<!-- third div additional -->
+<div id="additional" class="col-lg-3 col-md-12 bg-body-white text-dark p-4">
+  <h5>Additional resources</h5>
+  <hr>
+  <!-- events section -->
+  <div id="events" class="row align-items-center">
+      <div class="col-1">
+          <i class="bi bi-calendar"></i>
+      </div>
+      <div class="col">
+          <h6 class="mb-0">Events</h6>
+      </div>
+      <div class="take-challenge m-2">
+          <a class="text-decoration-none ms-2" href="#" style="color: #2c358cd8;">Take the challenge</a>
+          <p class="m-2"><b>May 21, 9 PM - Jun 21, 9 PM</b></p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt delectus, corporis vel voluptatum reiciendis ad odit. Aperiam nostrum temporibus placeat saepe</p>
+          <a class="text-decoration-none" href="#" style="color: #0082ca;" >Register Now</a>
+          <hr>
+      </div>
+  </div>
+  <!-- Training section -->
+  <div id="training" class="row align-items-center">
+      <div class="col-1">
+          <i class="bi bi-calendar"></i>
+      </div>
+      <div class="col">
+          <h6 class="mb-0">Training</h6>
+      </div>
+      <div class="take-challenge m-2">
+          <a class="text-decoration-none ms-2" href="#" style="color: #273aead8;">Connektplus Certification</a>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt delectus, corporis vel voluptatum reiciendis ad odit. Aperiam nostrum temporibus placeat saepe</p>
+          <hr>
+      </div>
+  </div>
+  <!-- documentation section -->
+  <div id="documentation" class="row align-items-center">
+      <div class="col-1">
+          <i class="bi bi-calendar"></i>
+      </div>
+      <div class="col">
+          <h6 class="mb-0">Documentation</h6>
+      </div>
+      <div class="take-challenge m-2">
+          <a class="text-decoration-none ms-2" href="#" style="color: #273aead8;">Connektplus admin center-overview</a>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt delectus, Aperiam nostrum temporibus placeat saepe</p>
+      </div>
+      <div class="take-challenge m-2">
+          <a class="text-decoration-none ms-2" href="#" style="color: #273aead8;">Connektplus admin help center</a>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt delectus, Aperiam nostrum temporibus placeat saepe</p>
+      </div>
+  </div>
+</div>
+</div>
+<!-- </div> -->
+
+
+
+<!-- Footer Section Start-->
+
+<footer class="bg-body-tertiary text-center">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+      data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2020 Copyright:
+    <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<!-- Footer Section End -->
+
+
+
+
+
+<!-- javascript file link -->
+<script src="./script.js"></script>
+</body>
+</html>

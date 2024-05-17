@@ -1,0 +1,113 @@
+
+/*  header style section  start*/
+/* first navbar style section  start*/
+
+.navbar-brand{
+    padding-left: 50px;
+}
+#learn{
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.nav-item{
+    padding-left: 25px;
+}
+#searchContainer {
+    position: relative;
+    display: flex;
+}
+#searchInput, #closeIcon {
+    display: none; /* Initially hide the search input and close icon */
+    position: absolute;
+    top: 0;
+}
+#searchInput {
+    right: 0;
+    font-size: 16px;
+    position: relative;
+    
+}
+
+
+#closeIcon:hover{
+    color: red;
+}
+
+#searchIcon {
+    cursor: pointer;
+    font-size: 24px;
+}
+#sign{
+    padding: 20px;
+    color: rgb(63, 63, 249);
+}
+/* first navbar style end */
+/* second nav style start */
+#connectplustext{
+    font-size: 20px;
+    font-weight:600;
+}
+
+/* Body part style */
+.text:hover{
+    text-decoration: underline;
+}
+#navbar-example3 {
+    max-height: 400px; 
+    overflow-y: auto; 
+}
+#dropdownButton::after {
+    display: none; 
+}
+.rotate {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+}
+.art-list,.d-flex{
+    list-style: none;
+}
+
+.art::after {
+    content: "\2022"; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: 1em; 
+}
+#main {
+    height: calc(100vh - 112px); 
+    overflow-y: auto;
+}
+#additional {
+    max-height: 600px; 
+    overflow-y: auto; 
+}
+.feedback-container {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.feedback-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.yes {
+    background-color: #4CAF50; /* Green */
+}
+
+.no {
+    background-color: #f44336; /* Red */
+}
+
+
+
+
+
+
